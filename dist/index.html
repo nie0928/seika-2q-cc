@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <style>
+    /* ここswiper */
+    .swiper {
+      width: 600px;
+      height: 300px;
+    }
+    /* ここまで */
+
+
+    body {
+      border: solid 1px red;
+
+    }
+
+    .naem {
+      display: flex;
+    }
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+
+
+
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+
+
+
+
+
+
+
+
+  <form id="basic_form" onsubmit="onSuccess(event)">
+    <div class="name">
+      <div>名前</div>
+      <div>
+        <input id="basic_name" type="text" name="name" placeholder="Enter your name" />
+      </div>
+    </div>
+    <div>
+      <input id="basic_email" type="text" name="email" placeholder="Enter your email" />
+    </div>
+    <div>
+      <input id="basic_password" type="text" name="password" placeholder="Enter your password" />
+    </div>
+    <div>
+      <input id="basic_age" type="text" name="age" placeholder="Enter your age" />
+    </div>
+    <div>
+      <input id="basic_address" type="text" name="address" placeholder="Enter your address" />
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  <script src="main.js"></script>
+</body>
+
+</html>
